@@ -1,0 +1,20 @@
+.vscode
+#Cmake Stuff
+CMakeFiles
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+#test stuff
+CTestTestfile.cmake
+Testing/Temporary/CTestCostData.txt
+Testing/Temporary/LastTest.log
+Testing/Temporary/LastTestsFailed.log
+
+tests/CMakeFiles
+tests/cmake_install.cmake
+tests/CMakeCache.txt
+tests/Makefile
+tests/CTestTestfile.cmake
+#Binary output
+build/
