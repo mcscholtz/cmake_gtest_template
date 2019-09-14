@@ -1,6 +1,5 @@
-dist: trusty
+dist: bionic
 sudo: false
-language: c++
 
 compiler:
   - clang
