@@ -9,6 +9,12 @@ rm -rf build > /dev/null 2>&1
 rm -rf CMakeFiles > /dev/null 2>&1
 
 #clean hello
-rm src/CTestTestfile.cmake > /dev/null 2>&1
-rm src/Makefile > /dev/null 2>&1
-rm -rf src/CMakeFiles > /dev/null 2>&1
+rm src/hello/Makefile > /dev/null 2>&1
+rm -rf src/hello/CMakeFiles > /dev/null 2>&1
+rm -rf src/hello/cmake_install.cmake > /dev/null 2>&1
+
+#clean hello/test
+rm src/hello/test/CTestTestfile.cmake > /dev/null 2>&1
+rm src/hello/test/cmake_install.cmake > /dev/null 2>&1
+rm src/hello/test/Makefile > /dev/null 2>&1
+rm -rf src/hello/test/CMakeFiles > /dev/null 2>&1
